@@ -33,20 +33,20 @@
 		{
 			role: "Research",
 			people: [
-				{ name: "Name", url: "test" },
-				{ name: "Name", url: "test" },
+				{ name: "Name" }, // url: "test"
+				{ name: "Name" }, // url: "test"
 			],
 		},
 		{
 			role: "Writing",
 			people: [
-				{ name: "Name", url: "test" },
+				{ name: "Name" }, // url: "test"
 			],
 		},
 		{
 			role: "Data visualization",
 			people: [
-				{ name: "Name", url: "test" },
+				{ name: "Name" }, // url: "test"
 			],
 		},
 	];
