@@ -1,0 +1,37 @@
+[
+  {
+    "sociodemographic": "Population Density",
+    "Tree Density":       { "pos": 19, "ns": 4,  "neg": 0  },
+    "Median DBH":         { "pos": 5,  "ns": 19, "neg": 1  },
+    "Basal Area":         { "pos": 12, "ns": 8,  "neg": 0  },
+    "Species Diversity":  { "pos": 0,  "ns": 0,  "neg": 23 }
+  },
+  {
+    "sociodemographic": "Residential Instability",
+    "Tree Density":       { "pos": 0,  "ns": 7,  "neg": 16 },
+    "Median DBH":         { "pos": 0,  "ns": 12, "neg": 13 },
+    "Basal Area":         { "pos": 0,  "ns": 6,  "neg": 14 },
+    "Species Diversity":  { "pos": 2,  "ns": 14, "neg": 7  }
+  },
+  {
+    "sociodemographic": "Ethno-cultural Composition",
+    "Tree Density":       { "pos": 2,  "ns": 10, "neg": 11 },
+    "Median DBH":         { "pos": 1,  "ns": 5,  "neg": 19 },
+    "Basal Area":         { "pos": 1,  "ns": 1,  "neg": 18 },
+    "Species Diversity":  { "pos": 3,  "ns": 15, "neg": 5  }
+  },
+  {
+    "sociodemographic": "Economic Dependency",
+    "Tree Density":       { "pos": 0,  "ns": 14, "neg": 9  },
+    "Median DBH":         { "pos": 9,  "ns": 10, "neg": 15 },
+    "Basal Area":         { "pos": 2,  "ns": 12, "neg": 6  },
+    "Species Diversity":  { "pos": 0,  "ns": 14, "neg": 9  }
+  },
+  {
+    "sociodemographic": "Situational Vulnerability",
+    "Tree Density":       { "pos": 2,  "ns": 19, "neg": 2  },
+    "Median DBH":         { "pos": 12, "ns": 12, "neg": 1  },
+    "Basal Area":         { "pos": 7,  "ns": 12, "neg": 1  },
+    "Species Diversity":  { "pos": 0,  "ns": 11, "neg": 12 }
+  }
+]

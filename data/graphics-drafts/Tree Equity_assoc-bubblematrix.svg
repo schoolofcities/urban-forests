@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="6.8in" height="7in" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 489.6 504">
+  <defs>
+    <clipPath id="clippath">
+      <circle cx="237.6" cy="414.001" r="17.28" fill="none"/>
+    </clipPath>
+  </defs>
+  <text transform="translate(28.057 180.001)" font-family="OpenSans-Bold, &apos;Open Sans&apos;" font-size="12" font-weight="700"><tspan x="0" y="0">Population</tspan><tspan x="20.021" y="14.4">Density</tspan></text>
+  <text transform="translate(27.887 410.401)" font-family="OpenSans-Bold, &apos;Open Sans&apos;" font-size="12" font-weight="700"><tspan x="0" y="0">Situational</tspan><tspan x="-11.924" y="14.4">Vulnerability</tspan></text>
+  <text transform="translate(7.431 295.202)" font-family="OpenSans-Bold, &apos;Open Sans&apos;" font-size="12" font-weight="700"><tspan x="0" y="0">Ethno-cultural</tspan><tspan x="10.471" y="14.4">Composition</tspan></text>
+  <text transform="translate(26.609 237.601)" font-family="OpenSans-Bold, &apos;Open Sans&apos;" font-size="12" font-weight="700"><tspan x="0" y="0">Residential</tspan><tspan x="6.094" y="14.4">Instability</tspan></text>
+  <text transform="translate(106.391 136.764)" font-family="OpenSans-Bold, &apos;Open Sans&apos;" font-size="12" font-weight="700"><tspan x="0" y="0">Tree Density</tspan></text>
+  <text transform="translate(200.592 136.764)" font-family="OpenSans-Bold, &apos;Open Sans&apos;" font-size="12" font-weight="700"><tspan x="0" y="0">Median DBH</tspan></text>
+  <text transform="translate(299.538 136.765)" font-family="OpenSans-Bold, &apos;Open Sans&apos;" font-size="12" font-weight="700"><tspan x="0" y="0">Basal Area</tspan></text>
+  <text transform="translate(374.4 136.764)" font-family="OpenSans-Bold, &apos;Open Sans&apos;" font-size="12" font-weight="700"><tspan x="0" y="0">Species Diversity</tspan></text>
+  <text transform="translate(36.347 352.802)" font-family="OpenSans-Bold, &apos;Open Sans&apos;" font-size="12" font-weight="700"><tspan x="0" y="0">Economic</tspan><tspan x="-16.857" y="14.4">Dependency</tspan></text>
+  <text transform="translate(14.4 31.62)" font-family="TradeGothicLT-Bold, &apos;TradeGothic LT Bold&apos;" font-size="20" font-weight="700"><tspan x="0" y="0">Associations between tree measures and the Canadian </tspan><tspan x="0" y="24">Index of Multiple Deprivation measures</tspan></text>
+  <g>
+    <line x1="468" y1="180.001" x2="108" y2="180.001" fill="none" stroke="#808285" stroke-miterlimit="10" stroke-width=".25"/>
+    <line x1="468" y1="241.201" x2="108" y2="241.201" fill="none" stroke="#808285" stroke-miterlimit="10" stroke-width=".25"/>
+    <line x1="468" y1="298.801" x2="108" y2="298.801" fill="none" stroke="#808285" stroke-miterlimit="10" stroke-width=".25"/>
+    <line x1="468" y1="356.401" x2="108" y2="356.401" fill="none" stroke="#808285" stroke-miterlimit="10" stroke-width=".25"/>
+    <line x1="468" y1="414.001" x2="108" y2="414.001" fill="none" stroke="#808285" stroke-miterlimit="10" stroke-width=".25"/>
+    <line x1="144" y1="143.999" x2="144" y2="452.756" fill="none" stroke="#808285" stroke-miterlimit="10" stroke-width=".25"/>
+    <line x1="237.6" y1="143.153" x2="237.6" y2="453.601" fill="none" stroke="#808285" stroke-miterlimit="10" stroke-width=".25"/>
+    <line x1="331.2" y1="143.999" x2="331.2" y2="452.756" fill="none" stroke="#808285" stroke-miterlimit="10" stroke-width=".25"/>
+    <line x1="424.8" y1="144.154" x2="424.8" y2="452.6" fill="none" stroke="#808285" stroke-miterlimit="10" stroke-width=".25"/>
+  </g>
+  <circle cx="144" cy="180.001" r="27.36" fill="#067fa3"/>
+  <g>
+    <text transform="translate(85.589 86.402)" font-family="OpenSans-Bold, &apos;Open Sans&apos;" font-size="12" font-weight="700"><tspan x="0" y="0">Positive </tspan><tspan x="0" y="14.4">associations</tspan></text>
+    <circle cx="67.589" cy="90.181" r="10.945" fill="#067fa3"/>
+    <text transform="translate(222.389 86.402)" font-family="OpenSans-Bold, &apos;Open Sans&apos;" font-size="12" font-weight="700"><tspan x="0" y="0">Neutral</tspan><tspan x="0" y="14.4">associations</tspan></text>
+    <circle cx="204.389" cy="90.181" r="10.945" fill="#d1d3d4"/>
+    <text transform="translate(359.116 86.402)" font-family="OpenSans-Bold, &apos;Open Sans&apos;" font-size="12" font-weight="700"><tspan x="0" y="0">Negative</tspan><tspan x="0" y="14.4">associations</tspan></text>
+    <circle cx="341.117" cy="90.181" r="10.945" fill="#ab2069"/>
+  </g>
+  <circle cx="144" cy="180.001" r="5.76" fill="#d1d3d4"/>
+  <circle cx="237.6" cy="180.001" r="27.36" fill="#d1d3d4"/>
+  <circle cx="237.6" cy="180.001" r="7.2" fill="#067fa3"/>
+  <circle cx="237.6" cy="180.001" r="1.44" fill="#ab2069"/>
+  <circle cx="331.2" cy="180.001" r="17.28" fill="#067fa3"/>
+  <circle cx="331.2" cy="180.001" r="11.52" fill="#d1d3d4"/>
+  <circle cx="424.8" cy="180.001" r="33.12" fill="#ab2069"/>
+  <circle cx="144" cy="241.201" r="23.04" fill="#ab2069"/>
+  <circle cx="144" cy="241.201" r="10.08" fill="#d1d3d4"/>
+  <circle cx="237.6" cy="241.201" r="18.72" fill="#ab2069"/>
+  <circle cx="237.6" cy="241.201" r="17.28" fill="#d1d3d4"/>
+  <circle cx="331.2" cy="241.201" r="20.16" fill="#ab2069"/>
+  <circle cx="331.2" cy="241.201" r="8.64" fill="#d1d3d4"/>
+  <circle cx="424.8" cy="241.201" r="20.16" fill="#d1d3d4"/>
+  <circle cx="424.8" cy="241.201" r="10.08" fill="#ab2069"/>
+  <circle cx="424.8" cy="241.201" r="2.88" fill="#067fa3"/>
+  <circle cx="144" cy="298.801" r="15.84" fill="#ab2069"/>
+  <circle cx="237.6" cy="298.801" r="27.36" fill="#ab2069"/>
+  <circle cx="331.2" cy="298.801" r="25.92" fill="#ab2069"/>
+  <circle cx="424.8" cy="414.001" r="17.28" fill="#ab2069"/>
+  <circle cx="144" cy="298.801" r="14.4" fill="#d1d3d4"/>
+  <circle cx="329.04" cy="296.971" r="1.44" fill="#d1d3d4"/>
+  <circle cx="424.8" cy="298.801" r="21.6" fill="#d1d3d4"/>
+  <circle cx="144" cy="356.401" r="20.16" fill="#d1d3d4"/>
+  <circle cx="237.6" cy="356.401" r="21.6" fill="#d1d3d4"/>
+  <circle cx="331.2" cy="356.401" r="17.28" fill="#d1d3d4"/>
+  <circle cx="331.2" cy="414.001" r="17.28" fill="#d1d3d4"/>
+  <circle cx="424.8" cy="414.001" r="15.84" fill="#d1d3d4"/>
+  <circle cx="144" cy="298.801" r="2.88" fill="#067fa3"/>
+  <circle cx="237.6" cy="298.801" r="14.4" fill="#067fa3"/>
+  <circle cx="333.36" cy="300.241" r="1.44" fill="#067fa3"/>
+  <circle cx="237.6" cy="356.401" r="14.4" fill="#067fa3"/>
+  <circle cx="237.6" cy="298.801" r="7.2" fill="#d1d3d4"/>
+  <circle cx="424.8" cy="298.801" r="7.2" fill="#ab2069"/>
+  <circle cx="424.8" cy="298.801" r="4.32" fill="#067fa3"/>
+  <circle cx="144" cy="356.401" r="12.96" fill="#ab2069"/>
+  <circle cx="331.2" cy="356.401" r="8.64" fill="#ab2069"/>
+  <circle cx="331.2" cy="356.401" r="2.88" fill="#067fa3"/>
+  <circle cx="331.2" cy="414.001" r="10.08" fill="#067fa3"/>
+  <circle cx="331.2" cy="414.001" r="1.44" fill="#ab2069"/>
+  <circle cx="424.8" cy="356.401" r="20.16" fill="#d1d3d4"/>
+  <circle cx="424.8" cy="356.401" r="12.96" fill="#ab2069"/>
+  <circle cx="144" cy="414.001" r="27.36" fill="#d1d3d4"/>
+  <circle cx="140.4" cy="410.401" r="2.88" fill="#ab2069"/>
+  <circle cx="147.6" cy="417.601" r="2.88" fill="#067fa3"/>
+  <circle cx="237.6" cy="414.001" r="17.28" fill="#d1d3d4"/>
+  <g clip-path="url(#clippath)">
+    <line x1="242.773" y1="435.401" x2="285.573" y2="392.602" fill="none" stroke="#067fa3" stroke-miterlimit="10"/>
+    <line x1="238.345" y1="435.401" x2="281.144" y2="392.602" fill="none" stroke="#067fa3" stroke-miterlimit="10"/>
+    <line x1="233.916" y1="435.401" x2="276.715" y2="392.602" fill="none" stroke="#067fa3" stroke-miterlimit="10"/>
+    <line x1="229.487" y1="435.401" x2="272.286" y2="392.602" fill="none" stroke="#067fa3" stroke-miterlimit="10"/>
+    <line x1="225.058" y1="435.401" x2="267.857" y2="392.602" fill="none" stroke="#067fa3" stroke-miterlimit="10"/>
+    <line x1="220.629" y1="435.401" x2="263.429" y2="392.602" fill="none" stroke="#067fa3" stroke-miterlimit="10"/>
+    <line x1="216.2" y1="435.401" x2="259" y2="392.602" fill="none" stroke="#067fa3" stroke-miterlimit="10"/>
+    <line x1="211.771" y1="435.401" x2="254.571" y2="392.602" fill="none" stroke="#067fa3" stroke-miterlimit="10"/>
+    <line x1="207.343" y1="435.401" x2="250.142" y2="392.602" fill="none" stroke="#067fa3" stroke-miterlimit="10"/>
+    <line x1="202.914" y1="435.401" x2="245.713" y2="392.602" fill="none" stroke="#067fa3" stroke-miterlimit="10"/>
+    <line x1="198.485" y1="435.401" x2="241.284" y2="392.602" fill="none" stroke="#067fa3" stroke-miterlimit="10"/>
+    <line x1="194.056" y1="435.401" x2="236.855" y2="392.602" fill="none" stroke="#067fa3" stroke-miterlimit="10"/>
+    <line x1="189.627" y1="435.401" x2="232.427" y2="392.602" fill="none" stroke="#067fa3" stroke-miterlimit="10"/>
+  </g>
+  <circle cx="237.6" cy="414.001" r="1.44" fill="#ab2069"/>
+</svg>
