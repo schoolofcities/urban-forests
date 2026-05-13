@@ -128,7 +128,13 @@
 
 <style>
 	.lorenz-container {
-		width: 360px;
+		width: 100%;
+	}
+
+	@media (max-width: 1300px) {
+		.lorenz-container {
+			margin-left: -50px;
+		}
 	}
 
 	svg {

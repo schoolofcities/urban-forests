@@ -1,4 +1,6 @@
 <script>
+	import { tweened } from 'svelte/motion';
+	import { cubicOut } from 'svelte/easing';
 	import cityData from './city-data.json';
 
 	export let cityA = 'Winnipeg';
@@ -126,6 +128,18 @@
 	let selectedA = cityA;
 	let selectedB = cityB;
 
+	const tweenOpts = { duration: 400, easing: cubicOut };
+
+	function initialRadii(cityName) {
+		return axes.map(ax => petalR(cityName, ax));
+	}
+
+	const radiiA = tweened(initialRadii(selectedA), tweenOpts);
+	const radiiB = tweened(initialRadii(selectedB), tweenOpts);
+
+	$: radiiA.set(initialRadii(selectedA));
+	$: radiiB.set(initialRadii(selectedB));
+
 	// custom dropdown open state per chart
 	let openDropdown = [false, false];
 
@@ -172,8 +186,8 @@
 <div class="radar-widget">
 	<div class="charts">
 		{#each [
-			{ city: selectedA, set: v => { selectedA = v; } },
-			{ city: selectedB, set: v => { selectedB = v; } }
+			{ city: selectedA, set: v => { selectedA = v; }, radii: $radiiA },
+			{ city: selectedB, set: v => { selectedB = v; }, radii: $radiiB }
 		] as cfg, ci}
 		{@const info = getCityInfo(cfg.city)}
 		<div class="chart-wrap">
@@ -220,8 +234,8 @@
 						<line x1={cx} y1={cy} x2={end.x} y2={end.y} stroke="#ccc" stroke-width="1" stroke-dasharray="4 3" />
 					{/each}
 
-					{#each axes as ax}
-						{@const r = petalR(cfg.city, ax)}
+					{#each axes as ax, ai}
+						{@const r = cfg.radii[ai]}
 						{@const val = getValue(cfg.city, ax.key)}
 						{#if r > 4}
 							<path

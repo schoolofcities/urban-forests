@@ -118,7 +118,7 @@
 <style>
 
 	.map-container {
-		width: 360px;
+		width: 100%;
 	}
 
 	svg {
@@ -134,7 +134,7 @@
 		padding: 6px 0 0;
 		margin-top: -40px;
 		margin-left: 90px;
-		width: calc(360px - 90px);
+		width: calc(100% - 90px);
 	}
 
 	.legend-item {

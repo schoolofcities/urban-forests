@@ -369,6 +369,18 @@
 		color: #000000;
 	}
 
+	@media (max-width: 600px) {
+		.callout-item p {
+			font-size: 16px;
+			line-height: 24px;
+		}
+
+		.references {
+			font-size: 0.75rem;
+			line-height: 1.5;
+		}
+	}
+
 	.oufp-section {
 		position: relative;
 	}
@@ -380,11 +392,18 @@
 		width: 360px;
 	}
 
-	@media (max-width: 900px) {
+	@media (max-width: 1300px) {
 		.map-float {
 			position: static;
-			width: auto;
+			width: 360px !important;
 			margin: 1.5rem auto;
+		}
+	}
+
+	@media (max-width: 500px) {
+		.map-float {
+			width: 300px !important;
+			max-width: 100%;
 		}
 	}
 </style>
