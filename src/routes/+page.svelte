@@ -324,7 +324,7 @@
 
 	.references a {
 		color: #000;
-		word-break: break-all;
+		word-break: break-word;
 	}
 
 	.references a:hover {
