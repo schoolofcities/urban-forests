@@ -1,7 +1,7 @@
 <script>
 
     export let footnotes;
-    export let footnoteListTitle = "References";
+    export let footnoteListTitle = "Footnotes";
 
 </script>
 

@@ -19,7 +19,12 @@
 	import { createFootnoteStore } from "$lib/footnoteUtils";
 	const footnoteStore = createFootnoteStore();
 	const { footnotes, addFootnote } = footnoteStore;
-	const fns = [""];
+	const fns = [
+		' N.A. Richards, “Diversity and stability in a street tree population,” Urban Ecology 7, no. 2(1983): 159–171, <a href=”https://doi.org/10.1016/0304-4009(83)90034-7” target=”_blank”>DOI</a>; and Andrew A. Millward and Senna Sabir, “Structure of a forested urban park: Implications for strategic management,” Journal of Environmental Management 91, no. 11 (2010): 2215–2224, <a href=”https://doi.org/10.1016/j.jenvman.2010.06.006” target=”_blank”>DOI</a>.',
+		'Elliott Volin, et al., “Assessing macro-scale patterns in urban tree canopy and inequality,” Urban Forestry and Urban Greening, 55, (2020): 126818, <a href=”https://doi.org/10.1016/j.ufug.2020.126818” target=”_blank”>DOI</a>, and Dexter H. Locke, et al., “Residential housing segregation and urban tree canopy in 37 US Cities,” Urban Sustainability 1, n.15 (2021), <a href=”https://doi.org/10.1038/s42949-021-00022-0” target=”_blank”>DOI</a>',
+		'Statistics Canada. (2023). The Canadian Index of Multiple Deprivation, 2021. Statistics Canada Catalogue no. 45‑20-0001.'
+
+	];
 
 	const ecozoneColours = {
 		'Atlantic Maritime':  '#c0de90',
@@ -33,20 +38,22 @@
 		{
 			role: "Research",
 			people: [
-				{ name: "Name" }, // url: "test"
-				{ name: "Name" }, // url: "test"
+				{ name: "Tenley Conway" },
+				{ name: "Alexander Martin" },
 			],
 		},
 		{
 			role: "Writing",
 			people: [
-				{ name: "Name" }, // url: "test"
+				{ name: "Tenley Conway" }, 
+				{ name: "Alexander Martin" },
+				{ name: "Serene Tan" }
 			],
 		},
 		{
 			role: "Data visualization",
 			people: [
-				{ name: "Name" }, // url: "test"
+				{ name: "Jeff Allen", url: "https://jamaps.github.io" }, 
 			],
 		},
 	];
@@ -116,11 +123,11 @@
 		/>
 
 		<p>
-			Cities across Canada are working to grow their urban forest based on the range of environmental, social, and health benefits provided by trees. These benefits include cooling during hot summer months, reduction in local flooding vulnerability, fostering community cohesion and a sense of place, and contributing to positive mental and physical health outcomes. The number of trees, their size, and species composition influence the type and extent of benefits created. However, most benefits are localized: experienced in the immediate area adjacent to the trees. As a result, an even spatial distribution of trees is important to ensure that all urban residents are receiving those benefits. 
+			Cities across Canada are working to grow their urban forest based on the range of environmental, social, and health benefits provided by trees. These benefits include cooling during hot summer months, reduction in local flooding vulnerability, fostering community cohesion and a sense of place, and contributing to positive mental and physical health outcomes. The number of trees, their size, and species composition influence the type and extent of benefits created. However, most benefits are localized: experienced in the immediate area adjacent to the trees. As a result, an even spatial distribution of trees is important to ensure that all urban residents are receiving those benefits.
 		</p>
 
 		<p>
-			Drawing on a recently created repository of municipal street tree inventories across Canada, Alexander Martin (Geography MSc, 2025) and Professor Tenley Conway examined the density, size and species of street tree assemblages in 32 Canadian cities to understand if trees are spatially distributed evenly and if distributions of street trees unfairly burden marginalized populations. We calculated the Gini index, a measure of inequality, to determine if trees are evenly distributed. We then conducted regression analyses using variables from the Canadian Index of Multiple Deprivation to determine if marginalized communities are inequitably associated with fewer, smaller, or less diverse trees in their neighbourhoods.     
+			Drawing on a recently created repository of municipal street tree inventories across Canada, Alexander Martin (UofT Geography MSc, 2025) and Professor Tenley Conway examined the density, size and species of street tree assemblages in 32 Canadian cities to understand if trees are spatially distributed evenly and if distributions of street trees unfairly burden marginalized populations. They calculated the Gini index, a measure of inequality, to determine if trees are evenly distributed. They then conducted regression analyses using variables from the Canadian Index of Multiple Deprivation to determine if marginalized communities are inequitably associated with fewer, smaller, or less diverse trees in their neighbourhoods.  
 		</p>
 
 		<p>
@@ -131,11 +138,11 @@
 			<h3>Open Urban Forests Project (OUFP) repository </h3>
 
 			<p>
-				The Canadian Institute of Forestry through their Open Urban Forests Project (OUFP) created a repository of municipalities’ tree inventories in 2024. The repository represents the first effort of its kind in Canada to support learning and informed decision-making about urban trees.
+				The Canadian Institute of Forestry through their <a href="https://www.cif-ifc.org/get-engaged/open-urban-forests/" target="_blank">Open Urban Forests Project</a> (OUFP) created a repository of municipalities’ tree inventories in 2024. The repository represents the first effort of its kind in Canada to support learning and informed decision-making about urban trees.
 			</p>
 
 			<p>
-				We have used the repository data to explore 32 cities’ street tree populations. Street trees are often the most visible trees in urban areas. These trees face challenging growing conditions, like high levels of vehicle pollution and limited growing space, that may restrict their growth and limit the type of species that can survive. In most cases, street trees are the responsibility of municipal governments, meaning management by municipal urban foresters and arborists directly impacts the planting and health of street trees. These trees and their attributes are also most frequently recorded in municipal tree inventories.
+				Conway and MArtin used the repository data to explore 32 cities’ street tree populations. Street trees are often the most visible trees in urban areas. These trees face challenging growing conditions, like high levels of vehicle pollution and limited growing space, that may restrict their growth and limit the type of species that can survive. In most cases, street trees are the responsibility of municipal governments, meaning management by municipal urban foresters and arborists directly impacts the planting and health of street trees. These trees and their attributes are also most frequently recorded in municipal tree inventories.
 			</p>
 
 			<div class="map-float">
@@ -157,11 +164,11 @@
 	<!-- <div class="text"> -->
 
 		<p>
-			Canada’s 32 cities contain over 3 million street trees, with the number of trees ranging from 9,787 trees in New Westminster, BC (population 78,916 in 2016) to 652,547 trees in Toronto (population 2,731,571 in 2016). All municipalities have more small trees and fewer large trees than recommended size class benchmarks, which may be a result of smaller stature trees being planted or a dominance of young trees that have not yet reached their mature height.
+			Canada’s 32 cities contain over 3 million street trees, with the number of trees ranging from 9,787 trees in New Westminster, BC (population 78,916 in 2016) to 652,547 trees in Toronto (population 2,731,571 in 2016). All municipalities have more small trees and fewer large trees than recommended size class benchmarks, which may be a result of smaller stature trees being planted or a dominance of young trees that have not yet reached their mature height<Footnote id={addFootnote(fns[0])} />.
 		</p>
 
 		<p>
-			Collectively, there is a diversity of species planted along our cities’ streets, with 726 street tree species across the 32 study cities. Vancouver has the most species (373), while Regina has the fewest (29). In most cities a few species dominate, with just four species representing 34% of the trees in the dataset. This is even more pronounced in the six Prairie cities in the dataset, with green ash and American elm comprising more than half of their street trees. 
+			Collectively, there is a diversity of species planted along Canada's city streets, with 726 street tree species across the 32 study cities. Vancouver has the most species (373), while Regina has the fewest (29). In most cities a few species dominate, with just four species representing 34% of the trees in the dataset. This is even more pronounced in the six Prairie cities in the dataset, with green ash and American elm comprising more than half of their street trees. 
 		</p>
 
 		<p>
@@ -187,12 +194,12 @@
 		</p>
 
 		<p>
-			We set out to explore if street tree populations are equally distributed across each city. To measure equality, we used the Gini Index. Traditionally, the Gini Index has been used to measure income (in)equality, but in recent years it has been applied to understand inequalities in urban tree distributions. Index values less than 0.2 are generally considered to represent equal distributions and those over 0.5 indicate significant disparity, however, benchmarks specific to urban forests have not been identified.  
+			Conway and Martin set out to explore if street tree populations are equally distributed across each city. To measure equality, we used the Gini Index. Traditionally, the Gini Index has been used to measure income (in)equality, but in recent years it has been applied to understand inequalities in urban tree distributions. Index values less than 0.2 are generally considered to represent equal distributions and those over 0.5 indicate significant disparity, however, benchmarks specific to urban forests have not been identified.  
 		</p>
 
 		<div class="oufp-section">
 			<p>
-				The Gini index can also be depicted graphically through Lorenz curves, which show the proportion of trees associated with the cumulative share of people. Perfect equality is represented by the straight y=x. Curves further from the line of equality indicate greater inequality.
+				The Gini index can also be depicted graphically through Lorenz curves, which show the proportion of trees associated with the cumulative share of people. Perfect equality is represented by the straight <span style="font-family: OpenSansBold; font-weight: normal; font-size: 16px;">y=x</span>. Curves further from the line of equality indicate greater inequality.
 			</p>
 			<div class="map-float">
 				<LorenzCurve />
@@ -200,7 +207,7 @@
 		</div>
 
 		<p>
-			We found relatively high levels of inequality for neighbourhood tree count (median Gini = 0.401), with Fredericton, NB having the most equal distribution (Gini = 0.259) and Maple Ridge, BC (Gini = 0.681) having the least. We also looked at the distribution of neighbourhood basal area, a measure reflecting the cumulative volume of trees that is associated with the magnitude of benefits produced. The median Gini value was 0.469 for basal area, with highest equality in Windsor (Gini = 0.324) and least equality in Lethbridge (0.709). 
+			The curves show relatively high levels of inequality for neighbourhood tree count (median Gini = 0.401), with Fredericton, NB having the most equal distribution (Gini = 0.259) and Maple Ridge, BC (Gini = 0.681) having the least. The distribution of neighbourhood basal area, a measure reflecting the cumulative volume of trees associated with the magnitude of benefits produced, showed a median Gini value of 0.469, with highest equality in Windsor (Gini = 0.324) and least equality in Lethbridge (0.709). 
 		</p>
 	
 		<GiniChart {ecozoneColours} />
@@ -211,11 +218,11 @@
 		</h3>
 
 		<p>
-			Are unequal distributions of street trees unfairly burdening marginalized populations? In other words, are the uneven distributions creating inequities between neighbourhoods with different socio-demographics? Such inequities are common in many US cities, with lower income households and racial minorities often living in neighbourhoods with relatively low tree canopy cover.  
+			Are unequal distributions of street trees unfairly burdening marginalized populations? In other words, are the uneven distributions creating inequities between neighbourhoods with different socio-demographics? Such inequities are common in many US cities<Footnote id={addFootnote(fns[1])} />, with lower income households and racial minorities often living in neighbourhoods with relatively low tree canopy cover.  
 		</p>
 
 		<p>
-			We explore the possibility of inequities using the Canadian Index of Multiple Deprivation, developed by Statistics Canada.i The index includes four measures:
+			Conway and Martin explore the possibility of inequities using the Canadian Index of Multiple Deprivation, developed by Statistics Canada<Footnote id={addFootnote(fns[2])} />. The index includes four measures:
 		</p>
 
 		<ul>
@@ -240,16 +247,16 @@
 
 			<div class="callout-list">
 				<div class="callout-item">
-					<p>Street tree populations reflect a complex landscape of inequities across Canadian cities. There are specific relationships between deprivation index measures and tree density, tree size, and species richness varying between cities. The findings highlight that we cannot generalize street tree inequities across cities, and municipal responses must be tailored to local realities.</p>
+					<p><strong>Street tree populations reflect a complex landscape of inequities across Canadian cities.</strong> There are specific relationships between deprivation index measures and tree density, tree size, and species richness varying between cities. The findings highlight street tree inequities cannot be generalized across cities, and municipal responses must be tailored to local realities.</p>
 				</div>
 				<div class="callout-item">
-					<p>Neighborhoods with higher population density regularly have a higher density of street trees but a lower diversity of species. This may reflect how municipal urban foresters prioritize planting along streets in denser residential neighbourhoods, where other greenspaces are more limited, but relying on a small number of species that are known to survive in stressful conditions associated with constrained planting sites.</p>
+					<p><strong>Neighborhoods with higher population density regularly have a higher density of street trees but a lower diversity of species.</strong> This may reflect how municipal urban foresters prioritize planting along streets in denser residential neighbourhoods, where other greenspaces are more limited, but relying on a small number of species that are known to survive in stressful conditions associated with constrained planting sites.</p>
 				</div>
 				<div class="callout-item">
-					<p>Residential instability is frequently negatively associated with tree density, median DBH, and basal area. This may be because in areas with lower instability – generally longer-term, wealthier residents living in owner-occupied, single-family houses – residents are requesting more street tree plantings and performing more consistent stewardship to helping trees thrive.</p>
+					<p><strong>Residential instability is frequently negatively associated with tree density, median DBH, and basal area.</strong> This may be because in areas with lower instability – generally longer-term, wealthier residents living in owner-occupied, single-family houses – residents are requesting more street tree plantings and performing more consistent stewardship to helping trees thrive.</p>
 				</div>
 				<div class="callout-item">
-					<p>Situational vulnerability associations with tree density and our two measures of tree size tends to be opposite the association with the other measures from the index of multiple deprivation. Neighbourhoods with higher situational vulnerability may contain older age of housing and lower levels of recent re-development, which results in larger trees.</p>
+					<p><strong>Situational vulnerability was often positively or not significantly associated with tree density and our two measures of tree size.</strong> This differs from the negative associations often observed for residential instability and ethnocultural composition. This distinction may be due to neighbourhoods with higher situational vulnerability containing older housing and lower levels of recent re-development, which results in larger trees.</p>
 				</div>
 			</div>
 		</div>
@@ -259,7 +266,7 @@
 
 			<div class="callout-list callout-list--action">
 				<div class="callout-item">
-					<p><strong>Cities need to plant and maintain large trees.</strong> Many cities already prioritize protection and planting of shade trees, which can be challenging due to stressful roadside conditions and infrastructure conflicts. However, the overabundance of smaller street trees across the dataset suggests that more work is needed to meet size class benchmarks that are associated with increased and sustained street tree benefits. Re-designing spaces for larger stature trees, including adopting soil volume standards — like the City of Toronto has within the Toronto Green Standard — is needed to ensure adequate space for root growth, supporting growth of larger trees.</p>
+					<p><strong>Cities need to plant and maintain large trees.</strong> Many cities already prioritize protection and planting of shade trees, which can be challenging due to stressful roadside conditions and infrastructure conflicts. However, the overabundance of smaller street trees across the dataset suggests that more work is needed to meet size class benchmarks that are associated with increased and sustained street tree benefits. Re-designing spaces for larger stature trees, including adopting soil volume standards – like the City of Toronto has within the Toronto Green Standard – is needed to ensure adequate space for root growth, supporting larger tree growth.</p>
 				</div>
 				<div class="callout-item">
 					<p><strong>Cities should plant a diversity of species.</strong> Increased species diversity will ensure a variety of benefits are produced, while also reducing a city’s vulnerability to pests and disease. This is particularly important in prairie cities, which are dominated by green ash and American elm. Both species are vulnerable to pests (emerald ash borer and Dutch elm disease) that have decimated ash and elm populations elsewhere in North America.</p>
@@ -268,7 +275,7 @@
 					<p><strong>Monitor equality of spatial distributions.</strong> Adopting metrics like the Gini Index can quantify current unevenness and allow cities to track changes over time. Many Canadian cities have invested in tree planting initiatives, but it remains unclear if new plantings have increased or decreased unequal distributions.</p>
 				</div>
 				<div class="callout-item">
-					<p><strong>Investigate local drivers of inequity.</strong> Our analysis found inequities in street trees are common, but the specific socio-demographic relationship varied between cities. This suggests that local histories and current conditions matter, with efforts to understand city-specific inequities needed to develop strategies to grow more equitable distributions.</p>
+					<p><strong>Investigate local drivers of inequity.</strong> The analysis found that inequities in street trees are common, but the specific socio-demographic relationship varied between cities. This suggests that local histories and current conditions matter, with efforts to understand city-specific inequities needed to develop strategies to grow more equitable distributions.</p>
 				</div>
 			</div>
 		</div>
@@ -286,15 +293,15 @@
 		<h3>Related publications and resources </h3>
 		<br>
 		<ul class="references">
-			<li>Martin, A.J.F., Fleming, A. &amp; Conway, T.M. Distributional inequities in tree density, size, and species diversity in 32 Canadian cities. <em>npj Urban Sustainability</em> 5, 18 (2025). <a href="https://doi.org/10.1038/s42949-025-00210-2" target="_blank" rel="noopener noreferrer">https://doi.org/10.1038/s42949-025-00210-2</a></li>
-			<li>Martin, A.J.F. &amp; T.M. Conway. Using the Gini Index to quantify urban green inequality: A systematic review and recommended reporting standards. <em>Landscape and Urban Planning</em> 254, 105231 (2025). <a href="https://doi.org/10.1016/j.landurbplan.2024.105231" target="_blank" rel="noopener noreferrer">https://doi.org/10.1016/j.landurbplan.2024.105231</a></li>
-			<li>Martin, A.J.F., Olson, L.G., Bacon, E.S. et al. A biogeographical analysis of taxonomic diversity and native species dominance in 32 Canadian street tree populations. <em>Urban Ecosystems</em> 28, 158 (2025). <a href="https://doi.org/10.1007/s11252-025-01764-w" target="_blank" rel="noopener noreferrer">https://doi.org/10.1007/s11252-025-01764-w</a></li>
-			<li>Martin, A.J.F., Olson, L.G., Bacon, E.S. et al. The structural diversity of Canada's urban forests: A national summary and an analysis of street tree size across ecozones, city sizes, and within cities. <em>Journal of Forestry</em> 123, 217–240 (2025). <a href="https://doi.org/10.1007/s44392-025-00011-6" target="_blank" rel="noopener noreferrer">https://doi.org/10.1007/s44392-025-00011-6</a></li>
-			<li>Canadian Institute of Forestry/Institut forestier du Canada. Open Urban Forests. <a href="https://www.cif-ifc.org/get-engaged/open-urban-forests/" target="_blank" rel="noopener noreferrer">https://www.cif-ifc.org/get-engaged/open-urban-forests/</a></li>
+			<li>Martin, A.J.F., Fleming, A. &amp; Conway, T.M. Distributional inequities in tree density, size, and species diversity in 32 Canadian cities. <em>npj Urban Sustainability</em> 5, 18 (2025). <a href="https://doi.org/10.1038/s42949-025-00210-2" target="_blank" rel="noopener noreferrer">DOI</a></li>
+			<li>Martin, A.J.F. &amp; T.M. Conway. Using the Gini Index to quantify urban green inequality: A systematic review and recommended reporting standards. <em>Landscape and Urban Planning</em> 254, 105231 (2025). <a href="https://doi.org/10.1016/j.landurbplan.2024.105231" target="_blank" rel="noopener noreferrer">DOI</a></li>
+			<li>Martin, A.J.F., Olson, L.G., Bacon, E.S. et al. A biogeographical analysis of taxonomic diversity and native species dominance in 32 Canadian street tree populations. <em>Urban Ecosystems</em> 28, 158 (2025). <a href="https://doi.org/10.1007/s11252-025-01764-w" target="_blank" rel="noopener noreferrer">DOI</a></li>
+			<li>Martin, A.J.F., Olson, L.G., Bacon, E.S. et al. The structural diversity of Canada's urban forests: A national summary and an analysis of street tree size across ecozones, city sizes, and within cities. <em>Journal of Forestry</em> 123, 217–240 (2025). <a href="https://doi.org/10.1007/s44392-025-00011-6" target="_blank" rel="noopener noreferrer">DOI</a></li>
+			<li>Canadian Institute of Forestry/Institut forestier du Canada. Open Urban Forests. <a href="https://www.cif-ifc.org/get-engaged/open-urban-forests/" target="_blank" rel="noopener noreferrer">Link</a></li>
 		</ul>
 	</div>
 
-	<!-- <Footnotes {footnotes} /> -->
+	<Footnotes {footnotes} />
 
 	<br><br><br><br>
 		
@@ -316,8 +323,12 @@
 	}
 
 	.references a {
-		color: var(--brandMedGreen);
+		color: #000;
 		word-break: break-all;
+	}
+
+	.references a:hover {
+		color: var(--brandMedGreen);
 	}
 
 	.insights-grid {

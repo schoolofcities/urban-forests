@@ -18,7 +18,7 @@
 		on:mouseenter={() => isHovered = true}
 		on:mouseleave={() => isHovered = false}
 	>
-		<span style="margin-left: -4px;">&nbsp;[{id[0]}]</span>
+		<span>[{id[0]}]</span>
 	</a>
 
 	{#if isHovered}
@@ -37,7 +37,8 @@
 		font-size: 1em;
 		line-height: 1;
 		display: inline;
-		white-space: nowrap; 
+		white-space: nowrap;
+		margin-right: -0.2em;
 	}
 	.footnote-ref {
 		vertical-align: super;

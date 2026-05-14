@@ -16,7 +16,7 @@
 		{ lines: ['Situational', 'Vulnerability'] },
 	];
 
-	const colours = { pos: '#00A189', ns: '#D0D1C9', neg: '#DC4633' };
+	const colours = { pos: '#8DBF2E', ns: '#D0D1C9', neg: '#DC4633' };
 
 	function buildDots(cell) {
 		const dots = [];
