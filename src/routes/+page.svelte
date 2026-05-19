@@ -53,7 +53,10 @@
 		{
 			role: "Data visualization",
 			people: [
-				{ name: "Jeff Allen", url: "https://jamaps.github.io" }, 
+				{ name: "Jeff Allen", 
+				// url: "https://jamaps.github.io" 
+			},
+				{ name: "Isabeaux Graham"} 
 			],
 		},
 	];
@@ -142,7 +145,7 @@
 			</p>
 
 			<p>
-				Conway and MArtin used the repository data to explore 32 cities’ street tree populations. Street trees are often the most visible trees in urban areas. These trees face challenging growing conditions, like high levels of vehicle pollution and limited growing space, that may restrict their growth and limit the type of species that can survive. In most cases, street trees are the responsibility of municipal governments, meaning management by municipal urban foresters and arborists directly impacts the planting and health of street trees. These trees and their attributes are also most frequently recorded in municipal tree inventories.
+				Conway and Martin used the repository data to explore 32 cities’ street tree populations. Street trees are often the most visible trees in urban areas. These trees face challenging growing conditions, like high levels of vehicle pollution and limited growing space, that may restrict their growth and limit the type of species that can survive. In most cases, street trees are the responsibility of municipal governments, meaning management by municipal urban foresters and arborists directly impacts the planting and health of street trees. These trees and their attributes are also most frequently recorded in municipal tree inventories.
 			</p>
 
 			<div class="map-float">
