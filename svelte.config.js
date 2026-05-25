@@ -14,7 +14,7 @@ const config = {
 		    assets: "docs"
 		}),
 		paths: {
-		    base: dev ? "" : "/street-trees",
+		    base: dev ? "" : "/urban-forests",
 		}
 	}
 };

@@ -1,6 +1,6 @@
 <script>
 
-	import "../assets/styles.css";
+	import "../../assets/styles.css";
 
 	import TitleVideo from "$lib/TitleVideo.svelte";
 	import GraphicSingle from "$lib/GraphicSingle.svelte";
