@@ -20,8 +20,8 @@
 	const footnoteStore = createFootnoteStore();
 	const { footnotes, addFootnote } = footnoteStore;
 	const fns = [
-		' N.A. Richards, “Diversity and stability in a street tree population,” <em>Urban Ecology</em> 7, no. 2(1983): 159–171, <a href=”https://doi.org/10.1016/0304-4009(83)90034-7” target=”_blank”>DOI</a>; and Andrew A. Millward and Senna Sabir, “Structure of a forested urban park: Implications for strategic management,” <em>Journal of Environmental Management</em> 91, no. 11 (2010): 2215–2224, <a href=”https://doi.org/10.1016/j.jenvman.2010.06.006” target=”_blank”>DOI</a>.',
-		'Elliott Volin, et al., “Assessing macro-scale patterns in urban tree canopy and inequality,” <em>Urban Forestry and Urban Greening</em>, 55, (2020): 126818, <a href=”https://doi.org/10.1016/j.ufug.2020.126818” target=”_blank”>DOI</a>, and Dexter H. Locke, et al., “Residential housing segregation and urban tree canopy in 37 US Cities,” <em>Urban Sustainability</em> 1, n.15 (2021), <a href=”https://doi.org/10.1038/s42949-021-00022-0” target=”_blank”>DOI</a>',
+		' N.A. Richards, “Diversity and stability in a street tree population,” <em>Urban Ecology</em> 7, no. 2(1983): 159–171, <a href="https://doi.org/10.1016/0304-4009(83)90034-7" target="_blank">DOI</a>; and Andrew A. Millward and Senna Sabir, “Structure of a forested urban park: Implications for strategic management,” <em>Journal of Environmental Management</em> 91, no. 11 (2010): 2215–2224, <a href="https://doi.org/10.1016/j.jenvman.2010.06.006" target="_blank">DOI</a>.',
+		'Elliott Volin, et al., “Assessing macro-scale patterns in urban tree canopy and inequality,” <em>Urban Forestry and Urban Greening</em>, 55, (2020): 126818, <a href="https://doi.org/10.1016/j.ufug.2020.126818" target="_blank">DOI</a>, and Dexter H. Locke, et al., “Residential housing segregation and urban tree canopy in 37 US Cities,” <em>Urban Sustainability</em> 1, n.15 (2021), <a href="https://doi.org/10.1038/s42949-021-00022-0" target="_blank">DOI</a>',
 		'Statistics Canada. (2023). The Canadian Index of Multiple Deprivation, 2021. Statistics Canada Catalogue no. 45‑20-0001.'
 
 	];
