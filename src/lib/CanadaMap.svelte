@@ -71,13 +71,53 @@
 			return { name: c.name, province: c.province, x, y };
 		})
 	);
+
+	let tooltip = null;
+	let mouseX = 0;
+	let mouseY = 0;
+	let hoveredDot = null;
+	let svgEl;
+
+	const HIT_RADIUS = 8; // in SVG units
+
+	function onSvgMouseMove(e) {
+		mouseX = e.clientX;
+		mouseY = e.clientY;
+		const rect = svgEl.getBoundingClientRect();
+		const scaleX = width / rect.width;
+		const scaleY = mapHeight / rect.height;
+		const svgX = (e.clientX - rect.left) * scaleX;
+		const svgY = (e.clientY - rect.top) * scaleY;
+		let nearest = null;
+		let nearestDist = HIT_RADIUS;
+		for (const dot of dots) {
+			const dx = dot.x - svgX;
+			const dy = dot.y - svgY;
+			const dist = Math.sqrt(dx * dx + dy * dy);
+			if (dist < nearestDist) {
+				nearestDist = dist;
+				nearest = dot;
+			}
+		}
+		hoveredDot = nearest;
+		tooltip = nearest;
+	}
+
+	function onSvgMouseLeave() {
+		tooltip = null;
+		hoveredDot = null;
+	}
 </script>
 
 <div class="map-container">
-	<svg viewBox="0 0 {width} {mapHeight}" preserveAspectRatio="xMidYMid meet">
+	<svg bind:this={svgEl} viewBox="0 0 {width} {mapHeight}" preserveAspectRatio="xMidYMid meet"
+		on:mousemove={onSvgMouseMove}
+		on:mouseleave={onSvgMouseLeave}
+		style="cursor: {hoveredDot ? 'pointer' : 'default'};"
+	>
 		<g class="provinces">
 			{#each provinces as p}
-				<path d={p.d} fill="#d8d8d8" stroke="#fff" stroke-width="0.05" />
+				<path d={p.d} fill="#e4e4e4" stroke="#fff" stroke-width="0.05" />
 			{/each}
 		</g>
 		<g class="ecozones">
@@ -92,12 +132,21 @@
 		</g>
 		<g class="cities">
 			{#each dots as dot}
-				<circle cx={dot.x} cy={dot.y} r={DOT_R} fill="#1a4a1a" stroke="#fff" stroke-width="1.5" opacity="0.9">
-					<title>{dot.name}, {dot.province}</title>
-				</circle>
+				<circle
+					cx={dot.x} cy={dot.y} r={DOT_R}
+					fill={hoveredDot === dot ? '#000' : '#1a4a1a'}
+					stroke={hoveredDot === dot ? '#000' : '#fff'}
+					stroke-width="1.5" opacity="0.9"
+				/>
 			{/each}
 		</g>
 	</svg>
+
+	{#if tooltip}
+		<div class="tooltip" style="left: {mouseX}px; top: {mouseY}px;">
+			{tooltip.name}
+		</div>
+	{/if}
 
 	<div class="legend">
 		<div><a class="legend-title" href="https://en.wikipedia.org/wiki/Ecozones_of_Canada" target="_blank" rel="noopener noreferrer">Ecozone</a></div>
@@ -119,6 +168,22 @@
 
 	.map-container {
 		width: 100%;
+		position: relative;
+	}
+
+	.tooltip {
+		position: fixed;
+		pointer-events: none;
+		background: #fff;
+		border: 1px solid #ccc;
+		color: #444;
+		font-family: OpenSans, sans-serif;
+		font-size: 0.75rem;
+		padding: 3px 7px;
+		border-radius: 3px;
+		white-space: nowrap;
+		transform: translate(10px, -50%);
+		z-index: 100;
 	}
 
 	svg {

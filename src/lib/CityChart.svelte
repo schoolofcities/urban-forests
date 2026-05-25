@@ -51,6 +51,7 @@
 		{ key: 'high-low', label: 'High → Low' },
 		{ key: 'low-high', label: 'Low → High' },
 		{ key: 'west-east', label: 'West → East' },
+		{ key: 'east-west', label: 'East → West' },
 	];
 
 	let selectedMetric = metrics[0];
@@ -61,7 +62,8 @@
 	$: rows = [...filtered].sort((a, b) => {
 		if (selectedSort === 'high-low') return b[selectedMetric.key] - a[selectedMetric.key];
 		if (selectedSort === 'low-high') return a[selectedMetric.key] - b[selectedMetric.key];
-		return a.westEastOrder - b.westEastOrder;
+		if (selectedSort === 'west-east') return a.westEastOrder - b.westEastOrder;
+		return b.westEastOrder - a.westEastOrder;
 	});
 
 	$: maxVal = filtered.length
@@ -176,6 +178,10 @@
 		color: white;
 	}
 
+	.metric-btn:hover {
+		opacity: 0.8;
+	}
+
 	.metric-info {
 		display: flex;
 		align-items: flex-start;
@@ -238,6 +244,10 @@
 
 	.sort-btn.active {
 		opacity: 1;
+	}
+
+	.sort-btn:hover {
+		opacity: 0.8;
 	}
 
 	.bar-chart {

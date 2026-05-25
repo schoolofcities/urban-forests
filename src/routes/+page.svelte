@@ -27,11 +27,11 @@
 	];
 
 	const ecozoneColours = {
-		'Atlantic Maritime':  '#c0de90',
-		'Prairie':            '#d4c97a',
+		'Atlantic Maritime':  '#7ed694',//'#c0de90',
+		'Prairie':            '#e3d398',//'#d4c97a',
 		'Pacific Maritime':   '#85c9bf',
-		'Montane Cordillera': '#b5bda8',
-		'Mixedwood Plain':    '#93bd84',
+		'Montane Cordillera': '#a89283',//'#b5bda8',
+		'Mixedwood Plain':    '#a0ba8d',//'#93bd84',
 	};
 
 	const credits = [
@@ -315,13 +315,19 @@
 
 <style>
 	.references {
-		font-size: 0.82rem;
-		line-height: 1.6;
+		font-size: 17px;
+		line-height: 24px;
+		font-family: SourceSerif, serif;
 		color: #555;
 		padding-left: 1.2rem;
 		display: flex;
 		flex-direction: column;
 		gap: 0.6rem;
+	}
+
+	:global(.references li) {
+		font-size: 17px;
+		line-height: 24px;
 	}
 
 	.references a {
@@ -389,8 +395,8 @@
 		}
 
 		.references {
-			font-size: 0.75rem;
-			line-height: 1.5;
+			font-size: 15px;
+			line-height: 23px;
 		}
 	}
 
