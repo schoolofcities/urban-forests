@@ -66,24 +66,24 @@
 
 <svelte:head>
 
-	<!-- <title>Kensington Market Commercial Change | School of Cities</title>
+	<title>Canada’s street trees | School of Cities</title>
 
-	<meta name="description" content="Mapping the changing commercial landscape of Kensington Market.">
-	<meta name="author" content="Farzaneh Hemmasi, Emily Herzman, Scott McCallum">
+	<meta name="description" content="The Trees Lining our Streets: Diversity and equity of Canada’s street trees">
+	<meta name="author" content="Tenley Conway, Alexander Martin">
 
-	<meta property="og:title" content="Commercial Change in Kensington Market" />
-	<meta name="og:description" content="Mapping the changing commercial landscape of Kensington Market." />
+	<meta property="og:title" content="Canada’s street trees" />
+	<meta name="og:description" content="The Trees Lining our Streets: Diversity and equity of Canada’s street trees" />
 	<meta property="og:type" content="website" />
-	<meta property="og:url" content="https://schoolofcities.github.io/kmclt" />
-	<meta property="og:image" content="https://schoolofcities.github.io/kensington-market/archives_km_4.jpg" />
+	<meta property="og:url" content="https://schoolofcities.github.io/urban-forests/street-trees-across-canada" />
+	<meta property="og:image" content="https://schoolofcities.github.io/urban-forests/web-card.png" />
 	<meta property="og:locale" content="en_CA">
 
 	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:site" content="https://schoolofcities.github.io/kmclt/" />
+	<meta name="twitter:site" content="https://schoolofcities.github.io/urban-forests/street-trees-across-canada/" />
 	<meta name="twitter:creator" content="@UofTCities" />
-	<meta name="twitter:title" content="Commercial Change in Kensington Market" />
-	<meta name="twitter:description" content="Mapping the changing commercial landscape of Kensington Market." />
-	<meta name="twitter:image" content="https://schoolofcities.github.io/kensington-market/archives_km_4.jpg" /> -->
+	<meta name="twitter:title" content="Canada’s street trees" />
+	<meta name="twitter:description" content="The Trees Lining our Streets: Diversity and equity of Canada’s street trees" />
+	<meta name="twitter:image" content="https://schoolofcities.github.io/urban-forests/web-card.png" />
 
 
 </svelte:head>
