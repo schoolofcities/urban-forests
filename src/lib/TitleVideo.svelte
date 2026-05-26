@@ -32,7 +32,6 @@
 
 <div class="title-container" bind:clientWidth={divWidth}>
 
-	<!-- Background Video -->
 	{#if video}
 		<video
 			class="background-video"
@@ -101,19 +100,17 @@
 
 	.logo-container {
 		position: absolute;
-		/* top: 75px; */
 		top: 75px;
 		left: 75px;
 		z-index: 2;
 	}
 
 	.logo-link {
-		filter: drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.32))
+		filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 1))
 	}
 
 	.logo-link:hover {
 		opacity: 0.8;
-		filter: drop-shadow(0px 0px 8px rgba(0, 0, 0, 1))
 	}
 
 	.title-text-container {
@@ -127,9 +124,9 @@
 	.title-text-container h1 {
 		font-family: TradeGothicBold;
 		font-weight: normal;
-		font-size: 64px;
+		font-size: 58px;
 		margin-bottom: 10px;
-		text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.6); 
+		text-shadow: 0px 0px 25px rgba(0, 0, 0, 1); 
 	}
 
 	.title-text-container h2 {
@@ -141,13 +138,13 @@
 		text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8); 
 	}
 
-	.title-text-container h1 {
+	/* .title-text-container h1 {
 		font-family: TradeGothicBold;
 		font-weight: normal;
 		font-size: 60px;
 		margin-bottom: 10px;
-		text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.6); 
-	}
+		text-shadow: 0px 0px 20px rgba(0, 0, 0, 1); 
+	} */
 
 	.subtitle-text-container {
 		max-width: 600px;
@@ -162,7 +159,7 @@
 	}
 
 	.logo-top {
-		width: 255px;
+		width: 295px;
 		height: auto;
 	}
 

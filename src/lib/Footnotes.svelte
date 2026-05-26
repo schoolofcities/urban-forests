@@ -71,7 +71,7 @@
     
     .footnote-item {
         padding-left: 32px;
-        margin-bottom: 10px;
+        margin-bottom: 30px;
         position: relative;
     }
 

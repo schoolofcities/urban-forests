@@ -65,7 +65,7 @@
 
 <svelte:head>
 
-	<title>Canada’s street trees | School of Cities</title>
+	<title>Canada’s Street Trees | School of Cities</title>
 
 	<meta name="description" content="The Trees Lining our Streets: Diversity and equity of Canada’s street trees">
 	<meta name="author" content="Tenley Conway, Alexander Martin">
@@ -93,65 +93,13 @@
 	<TitleVideo
 		title="The Trees Lining our Streets: Diversity and equity of Canada’s street trees"
 		subtitle=""
-		video="./Tree Density_Shot 01.mp4"
-		videoOpacity="0.9"
-		videoSpeed="1"
-		titleFontColour="white"
-		logoType="White"
-	/>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<TitleVideo
-		title="The Trees Lining our Streets: Diversity and equity of Canada’s street trees"
-		subtitle=""
-		video="./Tree Density_Shot 02.mp4"
-		videoOpacity="0.9"
-		videoSpeed="1"
-		titleFontColour="white"
-		logoType="White"
-	/>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<TitleVideo
-		title="The Trees Lining our Streets: Diversity and equity of Canada’s street trees"
-		subtitle=""
 		video="./Tree Density_Shot 03.mp4"
 		videoOpacity="0.9"
 		videoSpeed="1"
 		titleFontColour="white"
 		logoType="White"
 	/>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<TitleVideo
-		title="The Trees Lining our Streets: Diversity and equity of Canada’s street trees"
-		subtitle=""
-		video="./Tree Density_Shot 03_shorter.mp4"
-		videoOpacity="0.9"
-		videoSpeed="1"
-		titleFontColour="white"
-		logoType="White"
-	/>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-
-
+	
 	<div class="text">
 		<div
 			class="caption-container"
@@ -180,7 +128,7 @@
 		</p>
 
 		<p>
-			Drawing on a recently created repository of municipal street tree inventories across Canada, Alexander Martin (MSc ‘25, Department of Geography & Planning, U of T) and Tenley Conway (Professor, Department of Geography, Geomatics and Environment, UTM) examined the density, size, and species of street tree assemblages in 32 Canadian cities to understand if trees are spatially distributed evenly and if distributions of street trees unfairly burden marginalized populations. They calculated the Gini index, a measure of inequality, to determine if trees are evenly distributed. They then conducted regression analyses using variables from the Canadian Index of Multiple Deprivation to determine if marginalized communities are inequitably associated with fewer, smaller, or less diverse trees in their neighbourhoods.   
+			Drawing on a recently created repository of municipal street tree inventories across Canada, <a href="https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.linkedin.com%2Fin%2Falex-martin-ironwood" target="_blank">Alexander Martin</a> (MSc ‘25, Department of Geography & Planning, U of T) and <a href="http://sites.utm.utoronto.ca/conway/content/tenley-conway-and-house-lab" target="_blank">Tenley Conway</a> (Professor, Department of Geography, Geomatics and Environment, UTM) examined the density, size, and species of street tree assemblages in 32 Canadian cities to understand if trees are spatially distributed evenly and if distributions of street trees unfairly burden marginalized populations. They calculated the Gini index, a measure of inequality, to determine if trees are evenly distributed. They then conducted regression analyses using variables from the Canadian Index of Multiple Deprivation to determine if marginalized communities are inequitably associated with fewer, smaller, or less diverse trees in their neighbourhoods.   
 		</p>
 
 		<p>
@@ -346,11 +294,11 @@
 		<h3>Related publications and resources </h3>
 		<br>
 		<ul class="references">
-			<li>Martin, A.J.F., Fleming, A. &amp; Conway, T.M. Distributional inequities in tree density, size, and species diversity in 32 Canadian cities. <em>npj Urban Sustainability</em> 5, 18 (2025). <a href="https://doi.org/10.1038/s42949-025-00210-2" target="_blank" rel="noopener noreferrer">DOI</a></li>
-			<li>Martin, A.J.F. &amp; T.M. Conway. Using the Gini Index to quantify urban green inequality: A systematic review and recommended reporting standards. <em>Landscape and Urban Planning</em> 254, 105231 (2025). <a href="https://doi.org/10.1016/j.landurbplan.2024.105231" target="_blank" rel="noopener noreferrer">DOI</a></li>
-			<li>Martin, A.J.F., Olson, L.G., Bacon, E.S. et al. A biogeographical analysis of taxonomic diversity and native species dominance in 32 Canadian street tree populations. <em>Urban Ecosystems</em> 28, 158 (2025). <a href="https://doi.org/10.1007/s11252-025-01764-w" target="_blank" rel="noopener noreferrer">DOI</a></li>
-			<li>Martin, A.J.F., Olson, L.G., Bacon, E.S. et al. The structural diversity of Canada's urban forests: A national summary and an analysis of street tree size across ecozones, city sizes, and within cities. <em>Journal of Forestry</em> 123, 217–240 (2025). <a href="https://doi.org/10.1007/s44392-025-00011-6" target="_blank" rel="noopener noreferrer">DOI</a></li>
-			<li>Canadian Institute of Forestry/Institut forestier du Canada. Open Urban Forests. <a href="https://www.cif-ifc.org/get-engaged/open-urban-forests/" target="_blank" rel="noopener noreferrer">Link</a></li>
+			<li>Martin, A.J.F., A. Fleming, &amp; T.M. Conway, "Distributional inequities in tree density, size, and species diversity in 32 Canadian cities," <em>npj Urban Sustainability</em> 5, no. 18 (2025), <a href="https://doi.org/10.1038/s42949-025-00210-2" target="_blank" rel="noopener noreferrer">DOI</a></li>
+			<li>Martin, A.J.F. &amp; T.M. Conway, "Using the Gini Index to quantify urban green inequality: A systematic review and recommended reporting standards," <em>Landscape and Urban Planning</em> 254, no. 105231 (2025), <a href="https://doi.org/10.1016/j.landurbplan.2024.105231" target="_blank" rel="noopener noreferrer">DOI</a></li>
+			<li>Martin, A.J.F., L.G. Olson, E.S. Bacon, et al., "A biogeographical analysis of taxonomic diversity and native species dominance in 32 Canadian street tree populations," <em>Urban Ecosystems</em> 28, no. 158 (2025), <a href="https://doi.org/10.1007/s11252-025-01764-w" target="_blank" rel="noopener noreferrer">DOI</a></li>
+			<li>Martin, A.J.F., L.G. Olson, E.S. Bacon, et al., "The structural diversity of Canada's urban forests: A national summary and an analysis of street tree size across ecozones, city sizes, and within cities," <em>Journal of Forestry</em> 123, 217–240 (2025), <a href="https://doi.org/10.1007/s44392-025-00011-6" target="_blank" rel="noopener noreferrer">DOI</a></li>
+			<li>Canadian Institute of Forestry/Institut forestier du Canada. "Open Urban Forests." <a href="https://www.cif-ifc.org/get-engaged/open-urban-forests/" target="_blank" rel="noopener noreferrer">Link</a></li>
 		</ul>
 	</div>
 
@@ -379,6 +327,10 @@
 	:global(.references li) {
 		font-size: 17px;
 		line-height: 24px;
+	}
+
+	.references em {
+		margin-right: 0.15em;
 	}
 
 	.references a {
