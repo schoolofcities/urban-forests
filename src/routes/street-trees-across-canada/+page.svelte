@@ -39,8 +39,7 @@
 			role: "Research and writing",
 			people: [
 				{ name: "Tenley Conway" }, 
-				{ name: "Alexander Martin" },
-				{ name: "Serene Tan" }
+				{ name: "Alexander Martin" }
 			],
 		},
 		{
@@ -100,6 +99,58 @@
 		titleFontColour="white"
 		logoType="White"
 	/>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<TitleVideo
+		title="The Trees Lining our Streets: Diversity and equity of Canada’s street trees"
+		subtitle=""
+		video="./Tree Density_Shot 02.mp4"
+		videoOpacity="0.9"
+		videoSpeed="1"
+		titleFontColour="white"
+		logoType="White"
+	/>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<TitleVideo
+		title="The Trees Lining our Streets: Diversity and equity of Canada’s street trees"
+		subtitle=""
+		video="./Tree Density_Shot 03.mp4"
+		videoOpacity="0.9"
+		videoSpeed="1"
+		titleFontColour="white"
+		logoType="White"
+	/>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<TitleVideo
+		title="The Trees Lining our Streets: Diversity and equity of Canada’s street trees"
+		subtitle=""
+		video="./Tree Density_Shot 03_shorter.mp4"
+		videoOpacity="0.9"
+		videoSpeed="1"
+		titleFontColour="white"
+		logoType="White"
+	/>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+
 
 	<div class="text">
 		<div
@@ -110,7 +161,7 @@
 				<span class="caption-text"
 					><span class="caption-source"
 						>Video source: <a
-							href=""
+							href="https://schoolofcities.utoronto.ca/"
 							target="_blank"
 							>School of Cities</a
 						></span
@@ -129,7 +180,7 @@
 		</p>
 
 		<p>
-			Drawing on a recently created repository of municipal street tree inventories across Canada, Alexander Martin ( MSc ‘25, Department of Geography & Planning, U of T2025) and Tenley Conway (Professor, Department of Geography, Geomatics and Environment, UTM) examined the density, size, and species of street tree assemblages in 32 Canadian cities to understand if trees are spatially distributed evenly and if distributions of street trees unfairly burden marginalized populations. They calculated the Gini index, a measure of inequality, to determine if trees are evenly distributed. They then conducted regression analyses using variables from the Canadian Index of Multiple Deprivation to determine if marginalized communities are inequitably associated with fewer, smaller, or less diverse trees in their neighbourhoods.   
+			Drawing on a recently created repository of municipal street tree inventories across Canada, Alexander Martin (MSc ‘25, Department of Geography & Planning, U of T) and Tenley Conway (Professor, Department of Geography, Geomatics and Environment, UTM) examined the density, size, and species of street tree assemblages in 32 Canadian cities to understand if trees are spatially distributed evenly and if distributions of street trees unfairly burden marginalized populations. They calculated the Gini index, a measure of inequality, to determine if trees are evenly distributed. They then conducted regression analyses using variables from the Canadian Index of Multiple Deprivation to determine if marginalized communities are inequitably associated with fewer, smaller, or less diverse trees in their neighbourhoods.   
 		</p>
 
 		<p>
@@ -166,7 +217,7 @@
 	<!-- <div class="text"> -->
 
 		<p>
-			Canada’s 32 cities contain over 3 million street trees, with the number of trees ranging from 9,787 trees in New Westminster, BC (population 78,916 in 2021) to 652,547 trees in Toronto (population 2,731,571 in 2021). All municipalities have more small trees and fewer large trees than recommended size class benchmarks, which may be a result of smaller stature trees being planted or a dominance of young trees that have not yet reached their mature height<Footnote id={addFootnote(fns[0])} />.
+			Canada’s 32 cities contain over 3 million street trees, with the number of trees ranging from 9,787 trees in New Westminster, B.C. (population 78,916 in 2021) to 652,547 trees in Toronto (population 2,731,571 in 2021). All municipalities have more small trees and fewer large trees than recommended size class benchmarks, which may be a result of smaller stature trees being planted or a dominance of young trees that have not yet reached their mature height.<Footnote id={addFootnote(fns[0])} />
 		</p>
 
 		<p>
@@ -220,7 +271,7 @@
 		</h3>
 
 		<p>
-			Are unequal distributions of street trees unfairly burdening marginalized populations? In other words, are the uneven distributions creating inequities between neighbourhoods with different socio-demographics? Such inequities are common in many U.S. cities<Footnote id={addFootnote(fns[1])} />, with lower income households and racial minorities often living in neighbourhoods with relatively low tree canopy cover.  
+			Are unequal distributions of street trees unfairly burdening marginalized populations? In other words, are the uneven distributions creating inequities between neighbourhoods with different socio-demographics? Such inequities are common in many U.S. cities,<Footnote id={addFootnote(fns[1])} /> with lower income households and racial minorities often living in neighbourhoods with relatively low tree canopy cover.  
 		</p>
 
 		<p>
