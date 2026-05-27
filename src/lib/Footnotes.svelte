@@ -106,6 +106,10 @@
         }
     }
 
+    em {
+		margin-right: 0.15em;
+	}
+
     a:hover {
         color: var(--brandLightBlue);
     }

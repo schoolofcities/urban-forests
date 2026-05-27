@@ -78,7 +78,7 @@
 	let hoveredDot = null;
 	let svgEl;
 
-	const HIT_RADIUS = 8; // in SVG units
+	const HIT_RADIUS = 10;
 
 	function onSvgMouseMove(e) {
 		mouseX = e.clientX;
